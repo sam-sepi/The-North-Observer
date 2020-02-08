@@ -1,0 +1,21 @@
+{
+    "name": "sam-sepi/north-observer",
+    "description": "The North Remembers Observer pattern and Standard PHP Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Sepi",
+            "email": "sam.sepi.84@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "North\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
